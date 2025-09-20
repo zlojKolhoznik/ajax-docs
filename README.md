@@ -1,2 +1,2 @@
 # ajax-docs
-This repository contains documentations for my lab work in Ajax Laboratory
+В цьому репозиторії буде знаходитись документація до створення моїх виробів у лабораторії Ajax
