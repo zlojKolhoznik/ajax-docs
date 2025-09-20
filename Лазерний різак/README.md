@@ -44,3 +44,11 @@
 8. В полі distance вводимо -depth/2 та натискаємо OK
 Має вийти як на скріншоті ![final_with_text](Screenshots/final_with_text.png)
 Експортуємо нашу модель у потрібний формат. Готовий файл з вдавленим текстом можна знайти [тут](Artifacts/final_with_text.dxf)
+
+### Бонус: скругляємо кути
+В ідеалі скругляти кути потрібно ще на етапі скетча, але це можна зробити і з уже готовим виробом, ось як це робиться:
+1. Обираємо кути, які нам потрібно скруглити (сині на скріншоті) ![alt text](Screenshots/angles_to_round.png)
+2. Modify -> Fillet, вводимо потрібний радіус скруглення, в нашому випадку це depth/2 ![fillet_params](Screenshots/fillet_params.png)
+3. Я повторю ще той же процес, але із кутами всередині пазів та радіусом depth/4. В результаті маю наступну деталь ![final_round_angles](Screenshots/final_round_angles.png)
+
+Файл із деталлю зі скругленими кутами можна знайти [тут](Artifacts/final_round_angles.dxf)
